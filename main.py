@@ -1,8 +1,13 @@
+# install the following libraries in your terminal
+#pip install speechrecognition
+#pip install pyaudio
+#pip install setuptools
+#pip install pyttsx3
 import speech_recognition as sr
-import webbrowser
+import webbrowser #inbuild library
 import pyttsx3
 import music
-import requests
+import requests #inbuild library
 recognizer=sr.Recognizer()
 engine=pyttsx3.init()
 # newsapi="24e73fcaabf64dc7ad0cfc758cacd08e"
